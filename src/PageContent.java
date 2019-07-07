@@ -87,10 +87,10 @@ public class PageContent {
         connection.setRequestProperty("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3");
         connection.setRequestProperty("Accept-Language","en-US,en;q=0.5");
 
-        connection.setRequestProperty("Connection","keep-alive");
-        connection.setRequestProperty("Referer", "https://www.google.com/" );
-        connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
-        connection.setRequestProperty("Content-Length", Integer.toString(postParams.length()));
+//        connection.setRequestProperty("Connection","keep-alive");
+//        connection.setRequestProperty("Referer", "https://www.google.com/" );
+//        connection.setRequestProperty("Content-Type", "text/html");
+//        connection.setRequestProperty("Content-Length", Integer.toString(postParams.length()));
 
         connection.setDoOutput(true);
         connection.setDoInput(true);
