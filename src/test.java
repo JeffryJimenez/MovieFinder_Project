@@ -1,20 +1,15 @@
 public class test {
     public static void main(String[] args){
 
-        PageContent pageContent = new PageContent();
-        Connection connection = new Connection();
+//        DataBaseSearcher dataBaseSearcher = new DataBaseSearcher();
+        Connection connection = new Connection("Demon Slayer");
 
         try {
 
-//            String pagecontent = pageContent.connection("https://www.google.com/");
-//            String postparms = pageContent.getFormParams(pagecontent, "BlackClover");
-//
-//
-//            pageContent.sendPost("https://www.google.com/", postparms);
-//
-//            //String result = pageContent.connection();
 
-            connection.connect("https://www.google.com/search?q=hunter+x+hunter");
+//            System.out.println(dataBaseSearcher.fetch("A Cop (1972)"));
+            connection.connect();
+
 
         }catch (Exception ex){
             System.out.println("Something went wrong");
